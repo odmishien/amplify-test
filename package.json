@@ -1,0 +1,21 @@
+{
+  "name": "amplify-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aws-amplify": "^3.0.22"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.0.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "start": "webpack && webpack-dev-server --mode development --open",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC"
+}
